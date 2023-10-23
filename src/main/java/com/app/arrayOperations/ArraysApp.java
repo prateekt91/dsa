@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package com.app.arrayOperations;
 
 public class ArraysApp {
 
