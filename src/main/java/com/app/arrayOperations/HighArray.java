@@ -16,6 +16,7 @@ public class HighArray {
         nElems = 0;
     }
 
+    //This Uses Linear Search
     public boolean find(long searchKey) {
 
         int j;
