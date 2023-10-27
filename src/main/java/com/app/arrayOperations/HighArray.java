@@ -1,5 +1,8 @@
 package com.app.arrayOperations;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class HighArray {
 
     private long[] arr;
@@ -66,6 +69,21 @@ public class HighArray {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
+    }
+
+    public int getMax() {
+        int max = 0;
+        int i;
+        if(arr.length < 1)
+            return -1;
+        for(i=0; i<nElems; i++) {
+            if (arr[i] > max) {
+                max = (int) arr[i];
+            }
+        }
+        //Impl using streams :)
+   //     max = (int)Arrays.stream(arr).max().getAsLong();
+        return max;
     }
 
 }

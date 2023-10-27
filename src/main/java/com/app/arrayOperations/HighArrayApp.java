@@ -22,6 +22,8 @@ public class HighArrayApp {
         while (flag) {
             arr.display();
 
+            System.out.println("Highest element in given array :" + arr.getMax());
+
             System.out.println("Enter element which you want to search :");
             int searchKey = in.nextInt();
 
