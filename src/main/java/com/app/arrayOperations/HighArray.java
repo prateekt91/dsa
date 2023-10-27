@@ -86,4 +86,9 @@ public class HighArray {
         return max;
     }
 
+    public void removeMax() {
+        int max = getMax();
+        delete(max);
+    }
+
 }

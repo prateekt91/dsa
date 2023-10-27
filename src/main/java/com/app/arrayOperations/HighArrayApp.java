@@ -34,6 +34,12 @@ public class HighArrayApp {
                 System.out.println("Can't Find :" + searchKey);
             }
 
+            System.out.println("Deleting the maximum number from array :");
+            arr.removeMax();
+
+            System.out.println("Array after deletion :" );
+            arr.display();
+
             System.out.println("Enter element to delete");
             int delElem = in.nextInt();
 
