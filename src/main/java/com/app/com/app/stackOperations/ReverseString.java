@@ -4,16 +4,13 @@ import java.util.Scanner;
 
 public class ReverseString {
 
-    private static String input;
-    private static String output;
-
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
         System.out.println("############################String Reverser#####################################");
         System.out.println("Enter String to reverse :");
-        input = in.next();
+        String input = in.next();
         int stackSize = input.length();
        StringX stringX = new StringX(stackSize);
 
@@ -21,7 +18,7 @@ public class ReverseString {
             stringX.push(ch);
         }
 
-        output = "";
+        String output = "";
         while (!stringX.isEmpty()) {
             output += stringX.pop();
         }
