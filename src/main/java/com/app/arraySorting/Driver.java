@@ -17,7 +17,8 @@ public class Driver {
         Arrays.stream(testArray).forEach(System.out::println);
        // Stream.of(testArray).forEach(System.out::println);
 
-        testArray = sorting.bubbleSort(testArray);
+   //     testArray = sorting.bubbleSort(testArray);
+        testArray = sorting.insertionSort(testArray);
         System.out.println("Array after soring :");
 
         Arrays.stream(testArray).forEach(System.out::println);
