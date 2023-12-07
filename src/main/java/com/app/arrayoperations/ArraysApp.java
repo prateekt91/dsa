@@ -1,4 +1,4 @@
-package com.app.arrayOperations;
+package com.app.arrayoperations;
 
 public class ArraysApp {
 

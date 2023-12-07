@@ -1,6 +1,4 @@
-package com.app.arrayOperations;
-
-import java.util.Arrays;
+package com.app.arrayoperations;
 
 public class OrderedArray {
 

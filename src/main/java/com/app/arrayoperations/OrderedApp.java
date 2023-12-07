@@ -1,4 +1,4 @@
-package com.app.arrayOperations;
+package com.app.arrayoperations;
 
 import java.util.Scanner;
 

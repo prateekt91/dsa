@@ -1,4 +1,4 @@
-package com.app.com.app.linkListOperations;
+package com.app.com.app.linklistoperations;
 
 public class Link {
 

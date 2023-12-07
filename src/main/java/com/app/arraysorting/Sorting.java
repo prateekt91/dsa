@@ -1,4 +1,4 @@
-package com.app.arraySorting;
+package com.app.arraysorting;
 public class Sorting {
 
     public int[] bubbleSort(int[] numbers) {

@@ -1,7 +1,4 @@
-package com.app.arrayOperations;
-
-import java.util.Arrays;
-import java.util.Comparator;
+package com.app.arrayoperations;
 
 public class HighArray {
 

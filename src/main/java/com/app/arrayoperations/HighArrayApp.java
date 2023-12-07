@@ -1,6 +1,5 @@
-package com.app.arrayOperations;
+package com.app.arrayoperations;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class HighArrayApp {

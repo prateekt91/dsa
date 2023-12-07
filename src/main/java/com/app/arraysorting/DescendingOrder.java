@@ -1,4 +1,4 @@
-package com.app.arraySorting;
+package com.app.arraysorting;
 
 import java.util.Comparator;
 
