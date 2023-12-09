@@ -1,13 +1,9 @@
-package com.app.com.app.linklistoperations;
+package com.app.linklistoperations;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class LinkList {
 
     private Link first;
-
-    private Logger log = LoggerFactory.getLogger(LinkList.class);
 
     public LinkList() {
         first = null;
@@ -30,12 +26,12 @@ public class LinkList {
     }
 
     public void displayList() {
-        log.info("List (first --> last) :");
+        System.out.print("List (first --> last) :");
         Link current = first;
         while(current != null) {
             current.displayLink();
             current = current.next;
         }
-        log.info(" ");
+        System.out.print(" ");
     }
 }

@@ -1,4 +1,4 @@
-package com.app.com.app.doublylinkedlistoperations;
+package com.app.doublylinkedlistoperations;
 
 public class DoublyLinkedApp {
 

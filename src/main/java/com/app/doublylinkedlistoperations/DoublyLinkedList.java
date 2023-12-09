@@ -1,13 +1,10 @@
-package com.app.com.app.doublylinkedlistoperations;
+package com.app.doublylinkedlistoperations;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class DoublyLinkedList {
     private Link first;
     private Link last;
 
-    Logger log = LoggerFactory.getLogger(DoublyLinkedList.class);
     public DoublyLinkedList() {
         first = null;
         last = null;

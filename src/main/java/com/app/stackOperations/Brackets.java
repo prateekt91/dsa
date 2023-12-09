@@ -1,4 +1,4 @@
-package com.app.com.app.stackOperations;
+package com.app.stackOperations;
 
 public class Brackets {
 
